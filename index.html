@@ -31,6 +31,16 @@
 
             <!-- Status Display -->
             <div id="status-display" class="status-container hidden"></div>
+            <!-- メイン画面のセクションヘッダー下に追加 -->
+            <div class="sync-status-container">
+                <div class="sync-status">
+                    <span id="sync-status">同期ステータス: 未設定</span>
+                    <button class="btn btn--outline btn--small" id="manual-sync-btn" onclick="handleManualSync()">
+                        手動同期
+                    </button>
+                </div>
+            </div>
+
 
             <!-- Add Review Item Form -->
             <div id="add-review-form" class="card hidden">
